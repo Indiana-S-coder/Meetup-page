@@ -14,12 +14,14 @@
     display: flex;
     flex-direction: row;
     z-index: +10;
+    overflow-x: hidden;
 }
 /* ============================== */
 /*      NAVBAR EDUHUB LOGO */
 .imgContain{
     padding: 1rem;
     margin-left: 1rem;
+    position: relative;
 }
 
 
@@ -27,14 +29,17 @@
 /*      NAVBAR ELEMENTS      */
 #flexContainer{
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly;    */
     width: 45%;
     height: 100%;
-    margin-left: 46rem;
+    margin-left: 55%;
+    
 
 }
 .navbarElement{
     list-style: none;
+    padding-left:1.5rem ;
+    padding-right: 1.5rem;
 
 }
 .navbarLink{

@@ -1,0 +1,115 @@
+@media (max-width :1774px){
+    #heroSectionText{
+        bottom: 50rem;
+    }
+} 
+@media (max-width :1716px){
+    #heroSectionText{
+        bottom: 45rem;
+    }
+    .imgContain{
+        
+        right: 2rem;
+    }
+} 
+@media (max-width :1564px){
+    #heroSectionText{
+        bottom: 40rem;
+    }
+    .imgContain{
+        
+        right: 3rem;
+    }
+} 
+  
+@media (max-width :1488px){
+    #heroSectionText{
+        left: 8rem;
+        bottom: 36rem;
+    }
+    .imgContain{
+        
+        right: 4rem;
+    }
+    #flexContainer {
+        display: flex;
+        /* justify-content: space-evenly; */
+        width: 45%;
+        height: 100%;
+        margin-left: 45%;
+    }
+} 
+
+@media (max-width :1376px){
+    #heroSectionText{
+        left: 7rem;
+        bottom: 36rem;
+    }
+    .imgContain{
+        
+        right: 4rem;
+    }
+    #flexContainer {
+        display: flex;
+        /* justify-content: space-evenly; */
+        width: 45%;
+        height: 100%;
+        margin-left: 45%;
+    }
+    #heroSectionText p {
+        font-size: 7rem;
+        color: white;
+        font-family: var(--league);
+        line-height: 7.5rem;
+    }
+} 
+
+@media (max-width :1316px){
+    #heroSectionText{
+        left: 7rem;
+        bottom: 34rem;
+    }
+    .imgContain{
+        
+        right: 4rem;
+    }
+    #flexContainer {
+        display: flex;
+        /* justify-content: space-evenly; */
+        width: 45%;
+        height: 100%;
+        margin-left: 35%;
+    }
+    #heroSectionText p {
+        font-size: 6rem;
+        color: white;
+        font-family: var(--league);
+        line-height: 6.5rem;
+    }
+} 
+
+@media (max-width :1251px){
+    #heroSectionText{
+        left: 7rem;
+        bottom: 32rem;
+    }
+    .imgContain{
+        
+        right: 6rem;
+    }
+    #flexContainer {
+        display: flex;
+        /* justify-content: space-evenly; */
+        width: 45%;
+        height: 100%;
+        margin-left: 35%;
+    }
+    #heroSectionText p {
+        font-size: 6rem;
+        color: white;
+        font-family: var(--league);
+        line-height: 6.5rem;
+    }
+} 
+
+
