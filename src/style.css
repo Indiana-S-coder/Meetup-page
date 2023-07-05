@@ -73,11 +73,10 @@
 #upcommingEvents{
     width: 100%;
     height: 100vh;
-    background-color: red;
-    margin-top: 8rem;
+    margin-top: 6rem;
     padding-left: 10rem;
     padding-right: 10rem;
-    padding-top: 10rem;
+    padding-top: 4rem;
     z-index: +2;
     background-color: var(--background);
 }
@@ -92,3 +91,92 @@
     color: #3B92F8;
 }
 
+
+
+
+/*      LOCATION CARDS SECTION       */
+#locationContainer{
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+/*      LOCATION WRAPPER         */
+#locationImageWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.locationElement1{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.locationElement2{
+    background-image: url(../assets/img/locationBangalore.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+.locationElement3{
+    background-image: url(../assets/img/locationKolkata.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+/* .locationElement4{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement5{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement6{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement7{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement8{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement9{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+} */
+
+
+/*  */

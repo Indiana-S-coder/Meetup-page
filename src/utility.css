@@ -16,6 +16,9 @@
     font-family: var(--sora);
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100vw;
     height: 500vh;
