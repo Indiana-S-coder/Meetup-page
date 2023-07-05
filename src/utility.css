@@ -1,0 +1,39 @@
+
+/* all root elements and global variables here */
+
+/*      FONT         */
+:root{
+    --sora : 'Sora', sans-serif;
+    --background: #1b1c1e;
+    --blue: #3B92F8;
+    --cat: linear-gradient(to right, #B06AE9 , #FF5E6D, #FFA54C) ;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--sora);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 752vh;
+    overflow-x: hidden;
+    background-color: #1b1c1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* for centering Everything */
+.flexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
