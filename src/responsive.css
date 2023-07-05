@@ -43,7 +43,7 @@
 @media (max-width :1376px){
     #heroSectionText{
         left: 7rem;
-        bottom: 40rem;
+        bottom: 44rem;
     }
     .imgContain{
         
@@ -57,10 +57,10 @@
         margin-left: 45%;
     }
     #heroSectionText p {
-        font-size: 7rem;
+        font-size: 6rem;
         color: white;
         font-family: var(--league);
-        line-height: 7.5rem;
+        line-height: 6rem;
     }
 } 
 
