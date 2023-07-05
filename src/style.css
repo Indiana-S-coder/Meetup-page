@@ -407,6 +407,7 @@
     padding-left: 10rem;
     padding-right: 10rem;
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 /*      TEXT HEADING         */
@@ -418,23 +419,45 @@
 /*      THE QUESTION AND ANSWER DIVS         */
 #wrapperQna{
     width: 100%;
-    height: 80%;
-    margin-top: 5rem;
+    /* height: 100%; */
+    padding: 2% 0 2% 0;
+    margin-top: 4rem;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 15px;
 }
 
 .Question{
-    width: 90%;
-    height: 4rem;
-    background-color: white;
+    margin: 1%;
+    background-color: #3f3c37;
+    border-radius: 15px;
 }
 
+.faq-question{
+    font-size: larger;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    margin: 10px 0 10px 0;
+    padding: 20px 0 20px 20px;
+    width: 60rem;
+    height: 0rem;
+    background-color: #3f3c37;
+ }
 
-
+ .faq-answer{
+    color: #ffffff;
+    width: 60rem;
+    line-height: 150%;
+    padding: 0 3rem 3rem 3rem;
+    border-radius: 15px;
+    display: none;
+    background-color: #3f3c37;
+ }
 /* ====================================================================================== */
 /*      LETS CONNECT SECTION         */
 #letsConnect{
