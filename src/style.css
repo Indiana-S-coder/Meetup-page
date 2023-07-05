@@ -260,3 +260,70 @@
     border-radius: 10px;
 }
 
+
+
+/* ===================================================================================== */
+/*      ABOUT SECTION        */
+#aboutSectionEduhub{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background);
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+/*      TEXT SECTION         */
+.smallAboutEduhub{
+    font-size: 1.6rem;
+    color: var(--blue);
+    padding-left: 1rem;
+}
+.largeAboutEduhub{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--blue);
+}
+.paragraphAboutEduhub{
+    font-size: 1.2rem;
+    display: flex;
+    width: 40%;
+    text-align: justify;
+    color: white;
+}
+.buttonAboutEduhub{
+    width: 10rem;
+    height: 4rem;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    
+
+}
+
+
+/*      IMGAE        */
+.aboutImage1{
+    width: 40rem;
+    height: auto;
+    position: absolute;
+    bottom: 9rem;
+    right: 21rem;
+}
+.aboutImage2{
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    top: 6rem;
+    right: 11rem;
+}
+
+
+/* =============================================================================== */
+/*      ABOUT SECTION CAT        */
+#aboutSectionCat{
+    
+}
