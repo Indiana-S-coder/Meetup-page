@@ -1,7 +1,7 @@
 
 
 
-
+/* =================================================================== */
 /*      NAVBAR SECTION CSS       */
 #navbar{
     padding-left: 10rem;
@@ -13,6 +13,7 @@
     background-color: #1b1c1e;
     display: flex;
     flex-direction: row;
+    z-index: +2;
 }
 /* ============================== */
 /*      NAVBAR EDUHUB LOGO */
@@ -21,6 +22,9 @@
     margin-left: 1rem;
 }
 
+
+/* =============================== */
+/*      NAVBAR ELEMENTS      */
 #flexContainer{
     display: flex;
     justify-content: space-evenly;
@@ -39,6 +43,8 @@
 
 }
 
+
+/* =================================== */
 /*      CONTACT US NAVBAR        */
 .contactUs{
     width: 8rem;
@@ -48,4 +54,15 @@
 
 }
 
+
+/* ===================================================================== */
 /*      HERO SECTION         */
+#heroSection{
+    width: 100%;
+    height: 100vh;
+}
+.videoTrim{
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
