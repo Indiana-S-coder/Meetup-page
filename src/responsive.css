@@ -43,11 +43,11 @@
 @media (max-width :1376px){
     #heroSectionText{
         left: 7rem;
-        bottom: 36rem;
+        bottom: 40rem;
     }
     .imgContain{
         
-        right: 4rem;
+        right: 6rem;
     }
     #flexContainer {
         display: flex;
