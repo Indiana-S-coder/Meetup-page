@@ -235,29 +235,80 @@
     justify-content: space-around;
 }
 
+
+/* ======================================== */
+/*      ELEMENT 1        */
 .statElement1{
     background-color: var(--background);
     width: 20rem;
     height: 30rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
+
+.imgStatElement1{
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 2.5rem;
+}
+.textStatElement1{
+    color: var(--blue);
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+/* ==================================== */
+/*  ELEMENT 2 */
 .statElement2{
     background-color: var(--background);
     width: 20rem;
     height: 30rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
+
+
+/* ==================================== */
+/*  ELEMENT 3 */
 .statElement3{
     background-color: var(--background);
     width: 20rem;
     height: 30rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
+
+
+
+/* ==================================== */
+/*  ELEMENT 4 */
 .statElement4{
     background-color: var(--background);
     width: 20rem;
     height: 30rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 
@@ -438,5 +489,5 @@
 /* ====================================================================================== */
 /*      LETS CONNECT SECTION         */
 #letsConnect{
-    
+
 }
