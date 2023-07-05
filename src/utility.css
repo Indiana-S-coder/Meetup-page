@@ -1,9 +1,35 @@
 
 /* all root elements and global variables here */
 
+/*      FONT         */
+:root{
+    --sora : 'Sora', sans-serif;
+    
+}
+
+
 *{
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: var(--sora);
+}
+
+body{
+    width: 100vw;
+    height: 500vh;
+    
+    overflow-x: hidden;
+    background-color: #1b1c1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* for centering Everything */
+.flexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
