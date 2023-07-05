@@ -65,4 +65,18 @@
     width: 100%;
     height: auto;
     opacity: 0.3;
+    z-index: -1;
 }
+
+/* ===================================================================== */
+/*      UPCOMMING EVENTS         */
+#upcommingEvents{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    margin-top: 8rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+/*      TEXT SECTION         */
