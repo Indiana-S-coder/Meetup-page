@@ -289,7 +289,7 @@
     font-size: 1.2rem;
     display: flex;
     width: 40%;
-    text-align: justify;
+    text-align: left;
     color: white;
 }
 .buttonAboutEduhub{
@@ -325,5 +325,42 @@
 /* =============================================================================== */
 /*      ABOUT SECTION CAT        */
 #aboutSectionCat{
-    
+    background-color: #ededed;
+    width: 100%;
+    height: 100vh;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    position: relative;
 }
+
+/*      COLOR ADJUSTMENTS        */
+.CatTextColorAdjustment{
+    color: #0148A3;
+    text-align: left;
+
+}
+
+/*      IMAGE        */
+.catAboutImage{
+    position: absolute;
+    top: 9rem;
+    right: 13rem;
+}
+
+/*      BUTTON VISIT CAT WEBSITE         */
+.catVisitWebsiteButton{
+    width: 14rem;
+    height: 4rem;
+    background-image:linear-gradient(to right, #B06AE9 , #FF5E6D, #FFA54C) ;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+}
+
+
+/* ====================================================================================== */
+/*      SPONCERS         */

@@ -6,6 +6,7 @@
     --sora : 'Sora', sans-serif;
     --background: #1b1c1e;
     --blue: #3B92F8;
+    --cat: linear-gradient(to right, #B06AE9 , #FF5E6D, #FFA54C) ;
 }
 
 
@@ -22,7 +23,7 @@ html{
 }
 body{
     width: 100vw;
-    height: 500vh;
+    height: 900vh;
     
     overflow-x: hidden;
     background-color: #1b1c1e;
