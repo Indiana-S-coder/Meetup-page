@@ -330,7 +330,7 @@
     height: 100vh;
     padding-left: 10rem;
     padding-right: 10rem;
-    padding-top: 5rem;
+    padding-top: 8rem;
     position: relative;
 }
 
@@ -344,7 +344,7 @@
 /*      IMAGE        */
 .catAboutImage{
     position: absolute;
-    top: 9rem;
+    top: 12rem;
     right: 13rem;
 }
 
@@ -364,3 +364,30 @@
 
 /* ====================================================================================== */
 /*      SPONCERS         */
+
+
+#sponsers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+
+}
+
+/*      SPONSER TEXT         */
+.bigLetterSponser{
+    font-size: 5rem;
+    color: white;
+
+}
+
+/*      SPONSER LOGO         */
+.sponcerCatLogo{
+    margin-top: 6rem;
+    width: 20rem;
+}
