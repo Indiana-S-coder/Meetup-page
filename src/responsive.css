@@ -1,6 +1,6 @@
 @media (max-width :1774px){
     #heroSectionText{
-        bottom: 50rem;
+        bottom: 44rem;
     }
 } 
 @media (max-width :1716px){
@@ -14,11 +14,25 @@
 } 
 @media (max-width :1564px){
     #heroSectionText{
-        bottom: 40rem;
+        left: 7rem;
+        bottom: 44rem;
     }
     .imgContain{
         
-        right: 3rem;
+        right: 6rem;
+    }
+    #flexContainer {
+        display: flex;
+        /* justify-content: space-evenly; */
+        width: 45%;
+        height: 100%;
+        margin-left: 45%;
+    }
+    #heroSectionText p {
+        font-size: 6rem;
+        color: white;
+        font-family: var(--league);
+        line-height: 6rem;
     }
 } 
   
@@ -40,7 +54,7 @@
     }
 } 
 
-@media (max-width :1376px){
+@media (max-width :1366px){
     #heroSectionText{
         left: 7rem;
         bottom: 44rem;
