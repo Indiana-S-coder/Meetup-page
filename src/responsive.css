@@ -1,29 +1,4 @@
-@media (max-width :1366px){
-    #heroSection {
-        margin-top: 1rem;
-    }
 
-    #heroSectionText{
-        left: 6rem;
-        line-height: 6rem;
-        font-size: 7rem;
-        font-family: var(--league);
-    }
-
-    #flexContainer {
-        display: flex;
-        /* justify-content: space-evenly; */
-        width: 45%;
-        height: 100%;
-        margin-left: 45%;
-    }
-
-
-    #upcommingEvents {
-        margin-top: 0;
-        padding-top: 2rem;
-    }
-} 
 
 
 
