@@ -88,6 +88,7 @@
        position: absolute;
        bottom: 38%;
        left: 2%;
+       overflow: hidden;
 
     }
 
