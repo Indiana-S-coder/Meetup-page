@@ -69,6 +69,7 @@
     #heroSection {
         background-color: rgba(189, 11, 11,0.2);
         overflow: hidden;
+        width: 100%;
         
     }
 
@@ -213,7 +214,7 @@
     /*      BUTTONS FOR MOVING LOCATIONS      */
 
     #locationChange {
-        width: 50%;
+        width: 55%;
         height: 4rem;
         /* background-color: beige; */
         display: flex;
@@ -227,7 +228,7 @@
     #leftDirection {
         width: 40%;
         height: 100%;
-        border-radius: 50%;
+        border-radius: 0%;
         border: 4px solid var(--blue);
     }
 
@@ -239,7 +240,7 @@
     #rightDirection {
         width: 40%;
         height: 100%;
-        border-radius: 50%;
+        border-radius: 0%;
         border: 4px solid var(--blue);
     }
 
@@ -255,22 +256,24 @@
     /*      STATS SECTION        */
     #stats {
         width: 100%;
-        height: 100vh;
+        height: auto;
         background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding: 4rem 0rem;
+        overflow: hidden;
+
     }
 
     #statsWrapper {
         /* background-color: beige; */
         width: 100%;
-        height: 50%;
+        height: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
         justify-content: space-around;
     }
 
@@ -286,8 +289,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        margin: 2rem 0rem;
     }
 
     .imgStatElement1 {
@@ -314,8 +316,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        margin: 2rem 0rem;
     }
 
     .textStatElement2 {
@@ -336,8 +337,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        margin: 2rem 0rem;
     }
 
 
@@ -353,8 +353,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        margin: 2rem 0rem;
     }
 
 
