@@ -78,7 +78,7 @@
 #heroSectionText{
     width: 820px;
     height: auto;
-   background-color: rgb(36, 29, 29,0);
+    background-color: rgb(36, 29, 29,0);
     z-index: +2;
     position: relative;
     bottom: 55rem;
@@ -87,10 +87,10 @@
 }
 
 #heroSectionText p{
-    font-size:8rem;
+    font-size:6rem;
     color: white;
     font-family: var(--league);
-    line-height: 7.5rem;
+    line-height: 6rem;
     
 }
 /* ===================================================================== */
@@ -357,6 +357,7 @@
 }
 
 /*      TEXT SECTION         */
+
 .smallAboutEduhub{
     font-size: 1.6rem;
     color: var(--blue);
@@ -388,6 +389,7 @@
 
 
 /*      IMGAE        */
+
 .aboutImage1{
     width: 40rem;
     height: auto;
@@ -558,6 +560,7 @@
     color: #4092F2;
     margin: 1rem;
 }
+
 .icon-items{
     margin: 0 5px 0 5px;
 }

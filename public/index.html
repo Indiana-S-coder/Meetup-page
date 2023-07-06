@@ -41,17 +41,22 @@
 
     <!-- ============================== -->
     <!--                  NAVBAR                 -->
-    <nav id="navbar">
-        <img class="imgContain" src="../assets/svg/eduhubWhiteLogo.svg" alt="">
-        <ul id="flexContainer">
-            <li class="flexBox navbarElement"><a class="navbarLink" href="">Location</a> </li>
-            <li class="flexBox navbarElement"><a class="navbarLink" href="">About</a></li>
-            <li class="flexBox navbarElement"><a class="navbarLink" href="">Connect</a></li>
-            <!-- <li class="flexBox navbarElement"><a class="navbarLink" href="">For Whome</a></li> -->
-            <!--        CONTACT US SPECIAL BLUE EDITION      -->
-            <li class="flexBox navbarElement"><a class="navbarLink contactUs flexBox" href="">Contact US</a></li>
-        </ul>
-    </nav>
+    <div class="navbar-container">
+        <nav id="navbar">
+            <img class="imgContain" src="../assets/svg/eduhubWhiteLogo.svg" alt="">
+            <div id="flexContainer">
+                <ul class="navlist">
+                    <li class="flexBox navbarElement"><a class="navbarLink" href="">Location</a> </li>
+                    <li class="flexBox navbarElement"><a class="navbarLink" href="">About</a></li>
+                    <li class="flexBox navbarElement"><a class="navbarLink" href="">Connect</a></li>
+                    <!-- <li class="flexBox navbarElement"><a class="navbarLink" href="">For Whome</a></li> -->
+                    <!--        CONTACT US SPECIAL BLUE EDITION      -->
+                    <li class="flexBox navbarElement"><a class="navbarLink contactUs flexBox" href="">Contact US</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </div>
 
 
     <!-- ============================== -->
@@ -59,10 +64,11 @@
     <div id="heroSection">
         <!-- ================================== -->
         <!--        BACKGROUND VIDEO         -->
-        <video class="videoTrim" autoplay muted loop play-inline>
-            <source src="../assets/video/catHeroSectionEdited.mp4" type="video/mp4">
-            Your browser does not support the video SORRY.
-        </video>
+            <video class="videoTrim" autoplay muted loop play-inline>
+                <source src="../assets/video/catHeroSectionEdited.mp4" type="video/mp4">
+                Your browser does not support the video SORRY.
+            </video>
+        
         <div id="heroSectionText">
             <p>India's First <br>Cryptocurrency <br>Arbitrage <br>Meetup</p>
         </div>
@@ -131,23 +137,25 @@
     <!--        3RD FORM HERO SECTION        -->
     <!--        ABOUT SECTION (EDUHUB COMMUNITY)       -->
     <div id="aboutSectionEduhub">
-        <p class="smallAboutEduhub">WHO ARE WE?</p><br>
-        <p class="largeAboutEduhub">About <span class="blueHighliter">Eduhub</span> <br>Community</p><br><br>
-        <p class="paragraphAboutEduhub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facilis
-            porro
-            asperiores rerum ratione. Suscipit, earum odit nostrum itaque iure vero excepturi officia illo
-            blanditiis
-            pariatur expedita enim deserunt nisi mollitia unde! Eligendi hic, commodi sunt odit pariatur animi harum
-            libero numquam consequatur asperiores ducimus inventore temporibus laboriosam reprehenderit voluptatem
-            ea
-            magnam earum vitae quis recusandae. Repudiandae ipsam quasi eum quia cumque magni distinctio. Voluptatum
-            illum minus adipisci nihil deserunt! Corporis rem architecto ipsa earum ducimus, qui sequi eligendi
-            nobis
-            quisquam cum ipsam! Quae at quod ducimus atque? Distinctio provident, necessitatibus accusamus fugiat
-            delectus voluptatem eveniet recusandae. Quam, animi corrupti.</p><br><br>
-        <div class="buttonAboutEduhub">Join Us</div>
-        <img class="aboutImage1" src="../assets/img/eduhubImages/eduhubImage2.jpeg" alt="">
-        <img class="aboutImage2" src="../assets/img/eduhubImages/EduhubImage1.jpeg" alt="">
+        <div class="about-wrapper">
+            <div class="text-wrapper">
+                <p class="smallAboutEduhub">WHO ARE WE?</p><br>
+                <p class="largeAboutEduhub">About <span class="blueHighliter">Eduhub</span> <br>Community</p><br><br>
+                <p class="paragraphAboutEduhub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facilis porro
+                    asperiores rerum ratione. Suscipit, earum odit nostrum itaque iure vero excepturi officia illo blanditiis
+                    pariatur expedita enim deserunt nisi mollitia unde! Eligendi hic, commodi sunt odit pariatur animi harum
+                    libero numquam consequatur asperiores ducimus inventore temporibus laboriosam reprehenderit voluptatem ea
+                    magnam earum vitae quis recusandae. Repudiandae ipsam quasi eum quia cumque magni distinctio. Voluptatum
+                    illum minus adipisci nihil deserunt! Corporis rem architecto ipsa earum ducimus, qui sequi eligendi nobis
+                    quisquam cum ipsam! Quae at quod ducimus atque? Distinctio provident, necessitatibus accusamus fugiat
+                    delectus voluptatem eveniet recusandae. Quam, animi corrupti.</p><br><br>
+                <div class="buttonAboutEduhub">Join Us</div>
+            </div>
+            <div class="eduhub-img">
+                <img class="aboutImage1" src="../assets/img/eduhubImages/eduhubImage.jpg" alt="">
+                <img class="aboutImage2" src="../assets/img/eduhubImages/eduhubImage2.jpg" alt="">
+            </div>
+        </div>
     </div>
 
 
@@ -156,22 +164,25 @@
     <!--        4TH FROM HERO SECTION        -->
     <!--        ABOUT SECTION (CAT)      -->
     <div id="aboutSectionCat">
-        <p class="smallAboutEduhub CatTextColorAdjustment">WHAT IS CAT?</p><br>
-        <p class="largeAboutEduhub CatTextColorAdjustment">About Cat</p><br><br>
-        <p class="paragraphAboutEduhub CatTextColorAdjustment">Lorem ipsum dolor sit amet consectetur adipisicing
-            elit.
-            Expedita facilis porro asperiores rerum ratione. Suscipit, earum odit nostrum itaque iure vero excepturi
-            officia illo blanditiis pariatur expedita enim deserunt nisi mollitia unde! Eligendi hic, commodi sunt
-            odit
-            pariatur animi harum libero em ipsum dolor sit amet consectetur adipisicing elit. Consequatur, officiis
-            minus. Veritatis delectus officia cum accusantium, ipsa ipsum soluta beatae.
-            reprehenderit <br><br><br>
-            voluptatem ea magnam earum vitae quis recusandae. Repudiandae ipsam quasi eum quia cumque magni
-            distinctio.
-            Voluptatum illum minus adipisci nihil deserunt! Corporis rem architecto ipsa earum ducimus, qui sequi
-            eligendi nobis quisctus voluptatem eveniet recusandae. Quam, animi corrupti.</p><br><br>
-        <div class="catVisitWebsiteButton">Visit Website</div>
-        <img class="catAboutImage" src="../assets/img/eduhubImages/image 5.png" alt="">
+        <div class="about-wrapper">
+            <div class="text-wrapper">
+                <p class="smallAboutEduhub CatTextColorAdjustment">WHAT IS CAT?</p><br>
+                <p class="largeAboutEduhub CatTextColorAdjustment">About Cat</p><br><br>
+                <p class="paragraphAboutEduhub CatTextColorAdjustment">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita facilis porro asperiores rerum ratione. Suscipit, earum odit nostrum itaque iure vero excepturi
+                    officia illo blanditiis pariatur expedita enim deserunt nisi mollitia unde! Eligendi hic, commodi sunt odit
+                    pariatur animi harum libero em ipsum dolor sit amet consectetur adipisicing elit. Consequatur, officiis
+                    minus. Veritatis delectus officia cum accusantium, ipsa ipsum soluta beatae.
+                    reprehenderit <br><br><br>
+                    voluptatem ea magnam earum vitae quis recusandae. Repudiandae ipsam quasi eum quia cumque magni distinctio.
+                    Voluptatum illum minus adipisci nihil deserunt! Corporis rem architecto ipsa earum ducimus, qui sequi
+                    eligendi nobis quisctus voluptatem eveniet recusandae. Quam, animi corrupti.</p><br><br>
+                <div class="catVisitWebsiteButton">Visit Website</div>
+            </div>
+            <div class="img-wrapper">
+                <img class="catAboutImage" src="../assets/img/eduhubImages/image 5.png" alt="">
+            </div>
+        </div>
     </div>
 
     <!-- ============================= -->
