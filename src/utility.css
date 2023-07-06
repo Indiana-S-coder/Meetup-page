@@ -42,3 +42,7 @@ body{
     background-color: #1a6cd9;
     color: white;
 }
+
+#EXPERIMENTAL{
+    display: none;
+}
