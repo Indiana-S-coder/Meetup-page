@@ -24,7 +24,6 @@ html{
 }
 body{
     width: 100%;
-    height: 676vh;
     overflow-x: hidden;
     background-color: #1b1c1e;
     display: flex;
