@@ -1,68 +1,15 @@
-@media (max-width :1774px){
-    #heroSectionText{
-        bottom: 44rem;
-    }
-} 
-@media (max-width :1716px){
-    #heroSectionText{
-        bottom: 45rem;
-    }
-    .imgContain{
-        
-        right: 2rem;
-    }
-} 
-@media (max-width :1564px){
-    #heroSectionText{
-        left: 7rem;
-        bottom: 44rem;
-    }
-    .imgContain{
-        
-        right: 6rem;
-    }
-    #flexContainer {
-        display: flex;
-        /* justify-content: space-evenly; */
-        width: 45%;
-        height: 100%;
-        margin-left: 45%;
-    }
-    #heroSectionText p {
-        font-size: 6rem;
-        color: white;
-        font-family: var(--league);
-        line-height: 6rem;
-    }
-} 
-  
-@media (max-width :1488px){
-    #heroSectionText{
-        left: 8rem;
-        bottom: 36rem;
-    }
-    .imgContain{
-        
-        right: 4rem;
-    }
-    #flexContainer {
-        display: flex;
-        /* justify-content: space-evenly; */
-        width: 45%;
-        height: 100%;
-        margin-left: 45%;
-    }
-} 
-
 @media (max-width :1366px){
+    #heroSection {
+        margin-top: 1rem;
+    }
+
     #heroSectionText{
-        left: 7rem;
-        bottom: 44rem;
+        left: 6rem;
+        line-height: 6rem;
+        font-size: 7rem;
+        font-family: var(--league);
     }
-    .imgContain{
-        
-        right: 6rem;
-    }
+
     #flexContainer {
         display: flex;
         /* justify-content: space-evenly; */
@@ -70,60 +17,13 @@
         height: 100%;
         margin-left: 45%;
     }
-    #heroSectionText p {
-        font-size: 6rem;
-        color: white;
-        font-family: var(--league);
-        line-height: 6rem;
+
+
+    #upcommingEvents {
+        margin-top: 0;
+        padding-top: 2rem;
     }
 } 
 
-@media (max-width :1316px){
-    #heroSectionText{
-        left: 7rem;
-        bottom: 34rem;
-    }
-    .imgContain{
-        
-        right: 4rem;
-    }
-    #flexContainer {
-        display: flex;
-        /* justify-content: space-evenly; */
-        width: 45%;
-        height: 100%;
-        margin-left: 35%;
-    }
-    #heroSectionText p {
-        font-size: 6rem;
-        color: white;
-        font-family: var(--league);
-        line-height: 6.5rem;
-    }
-} 
-
-@media (max-width :1251px){
-    #heroSectionText{
-        left: 7rem;
-        bottom: 32rem;
-    }
-    .imgContain{
-        
-        right: 6rem;
-    }
-    #flexContainer {
-        display: flex;
-        /* justify-content: space-evenly; */
-        width: 45%;
-        height: 100%;
-        margin-left: 35%;
-    }
-    #heroSectionText p {
-        font-size: 6rem;
-        color: white;
-        font-family: var(--league);
-        line-height: 6.5rem;
-    }
-} 
 
 
