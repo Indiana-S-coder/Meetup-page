@@ -1,7 +1,7 @@
 @media(max-width:500px) {
 
     body{
-        height: 1000vh;
+        height: 850vh;
     }
 
     /* =================================================================== */
@@ -18,6 +18,7 @@
         flex-direction: row;
         z-index: +10;
         overflow-x: hidden;
+        display: none;
     }
 
     /* ============================== */
@@ -103,7 +104,7 @@
         background-color: var(--background);
         max-width: 100%;
         min-width: 100%;
-        height: 90rem;
+        height: 50rem;
         padding: 1rem 1rem;
         margin-top: 0;
         
@@ -129,7 +130,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content:none;
+        justify-content:center;
         width: 100%;
         height: 80%;
         /* background-color: red; */
@@ -151,70 +152,66 @@
 
     .locationElement1 {
         background-image: url(../assets/img/locationDelhi.png);
-        /* background-size: contain;
-        background-position: center; */
         width: 18.75rem;
         height: 25.625rem;
         background-repeat: no-repeat;
-        margin-top: 2rem;
         
     }
     
     .locationElement2 {
-        background-image: url(../assets/img/locationKolkata.png);
-        /* background-size: contain;
-        background-position: center; */
+        background-image: url();
+        
         width: 18.75rem;
         height: 25.625rem;
         background-repeat: no-repeat;
         margin-top: 2rem;
+        display: none;
         
     }
     
     .locationElement3 {
-        background-image: url(../assets/img/locationBangalore.png);
-        /* background-size: contain;
-        background-position: center; */
+        background-image: url();
+        
         width: 18.75rem;
         height: 25.625rem;
         background-repeat: no-repeat;
         margin-top: 2rem;
-        
+        display: none;
 
     }
 
     /* .locationElement4{
-    background-image: url(../assets/img/locationDelhi.png);
+    background-image: url();
     width: 300px;
     height: 410px;
     background-repeat: no-repeat;
 }
 .locationElement5{
-    background-image: url(../assets/img/locationDelhi.png);
+    background-image: url(;
     width: 300px;
     height: 410px;
     background-repeat: no-repeat;
 }
 .locationElement6{
-    background-image: url(../assets/img/locationDelhi.png);
+    background-image: url();
     width: 300px;
     height: 410px;
     background-repeat: no-repeat;
 }
 .locationElement7{
-    background-image: url(../assets/img/locationDelhi.png);
+    background-image: url();
     width: 300px;
     height: 410px;
     background-repeat: no-repeat;
 }
 .locationElement8{
-    background-image: url(../assets/img/locationDelhi.png);
+    background-image: url();
     width: 300px;
     height: 410px;
     background-repeat: no-repeat;
 }
 .locationElement9{
-    background-image: url(../assets/img/locationDelhi.png);
+    background-image: url();
     width: 300px;
     height: 410px;
     background-repeat: no-repeat;
@@ -230,6 +227,7 @@
         display: flex;
         justify-content: space-around;
         position: absolute;
+        display: none;
         
 
     }
@@ -528,10 +526,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
         padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-bottom: 0rem;
+        /* background-color: rgba(179, 243, 83,0.4); */
     }
 
     /*      TEXT HEADING         */
@@ -550,34 +549,37 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
         border-radius: 15px;
+        /* background-color: red; */
     }
 
     .Question {
-        margin: 1%;
+        width: 90%;
         background-color: #3f3c37;
-        border-radius: 15px;
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
-
+    
     .faq-question {
-        font-size: larger;
+        font-size: large;
         color: #ffffff;
         cursor: pointer;
         display: flex;
-        align-items: center;
-        margin: 10px 0 10px 0;
-        padding: 20px 0 20px 20px;
-        width: 60rem;
-        height: 0rem;
+        align-items: center;  
+        width: 90%;
         background-color: #3f3c37;
+        border-radius: 15px;
     }
 
     .faq-answer {
         color: #ffffff;
-        width: 60rem;
-        line-height: 150%;
-        padding: 0 3rem 3rem 3rem;
+        width: 90%;
+        padding: 1rem 1rem 1rem 1rem;
+        margin-bottom: 1rem;
         border-radius: 15px;
         display: none;
         background-color: #3f3c37;
