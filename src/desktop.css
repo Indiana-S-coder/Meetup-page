@@ -1,0 +1,599 @@
+
+/* =================================================================== */
+/*      NAVBAR SECTION CSS       */
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+}
+
+#navbar{
+    background-color: #1b1c1e;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    top: 0;
+    display: flex;
+    /* z-index: +10; */
+    overflow-x: hidden;
+}
+/* ============================== */
+/*      NAVBAR EDUHUB LOGO */
+.imgContain{
+    padding: 1rem;
+    margin-left: 2.5rem;
+    position: relative;
+}
+
+
+/* =============================== */
+/*      NAVBAR ELEMENTS      */
+#flexContainer{
+    width: 100%;
+    height: 100%;
+    margin-left: 55%;
+
+}
+.navlist {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbarElement{
+    list-style: none;
+    padding-left:1.5rem ;
+    padding-right: 1.5rem;
+
+}
+.navbarLink{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* =================================== */
+/*      CONTACT US NAVBAR        */
+.contactUs{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    background-color: #3B92F8;
+
+}
+
+
+/* ===================================================================== */
+/*      HERO SECTION         */
+#heroSection{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.videoTrim{
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    object-fit: cover;
+    transform: translateZ(-1rem) scale(1);
+}
+#heroSectionText{
+    width: 50%;
+    margin-top: 5rem;
+    height: auto;
+    background-color: rgb(36, 29, 29,0);
+    position: absolute;
+    object-fit: cover;
+}
+
+#heroSectionText p{
+    font-size:6rem;
+    color: white;
+    font-family: var(--league);
+    line-height: 6.5rem;
+    
+}
+/* ===================================================================== */
+/*      UPCOMMING EVENTS         */
+#upcommingEvents{
+    width: 100%;
+    /* height: 100vh; */
+    margin-top: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 4rem;
+    z-index: +2;
+    background-color: var(--background);
+}
+
+/*      TEXT SECTION         */
+.smallTextLocation{
+    font-size: 1.5rem;
+    color: #3B92F8;
+}
+.largeTextLocation{
+    font-size: 3.5rem;
+    color: #3B92F8;
+}
+
+
+
+
+/*      LOCATION CARDS SECTION       */
+#locationContainer{
+    justify-content: space-around;
+    width: 100%;
+    /* height: 80%; */
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+/*      LOCATION WRAPPER         */
+#locationImageWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.locationElement1{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.locationElement2{
+    background-image: url(../assets/img/locationBangalore.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.locationElement3{
+    background-image: url(../assets/img/locationKolkata.png);
+    width: 300px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 10px;
+}
+/* .locationElement4{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement5{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement6{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement7{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement8{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.locationElement9{
+    background-image: url(../assets/img/locationDelhi.png);
+    width: 300px;
+    height: 410px;
+    background-repeat: no-repeat;
+} */
+
+
+/*      BUTTONS FOR MOVING LOCATIONS      */
+
+#locationChange{
+    width: 10%;
+    height: 4rem;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-around;
+}
+#leftDirection{
+    margin: 2rem;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border: 4px solid var(--blue);
+}
+#leftDirection:hover{
+    cursor: pointer;
+    background-color: var(--blue);
+}
+#rightDirection{
+    margin: 2rem;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border: 4px solid var(--blue);
+}
+#rightDirection:hover{
+    cursor: pointer;
+    background-color: #3B92F8;
+}
+
+
+
+
+/* ======================================================================================== */
+/*      STATS SECTION        */
+#stats{
+    width: 100%;
+    /* height: 80vh; */
+    padding: 2rem;
+    background-color: black;
+    /* display: grid;
+    gap: 1%; */
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#statsWrapper{
+    /* background-color: beige; */
+    width: 100%;
+    /* height: 1%;  */
+    margin: auto;
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+
+
+/* ======================================== */
+/*      ELEMENT 1        */
+.statElement1{
+    background-color: var(--background);
+    width: 15rem;
+    height: 25rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.imgStatElement1{
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 2.5rem;
+}
+.textStatElement1{
+    color: var(--blue);
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/* ==================================== */
+/*  ELEMENT 2 */
+.statElement2{
+    background-color: var(--background);
+    width: 15rem;
+    height: 25rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.textStatElement2{
+    color: var(--blue);
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/* ==================================== */
+/*  ELEMENT 3 */
+.statElement3{
+    background-color: var(--background);
+    width: 15rem;
+    height: 25rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+/* ==================================== */
+/*  ELEMENT 4 */
+.statElement4{
+    background-color: var(--background);
+    width: 15rem;
+    height: 25rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+/* ===================================================================================== */
+/*      ABOUT SECTION        */
+#aboutSectionEduhub{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: var(--background);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+/*      TEXT SECTION         */
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.smallAboutEduhub{
+    font-size: 1rem;
+    color: var(--blue);
+    padding-left: 1rem;
+}
+.largeAboutEduhub{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--blue);
+}
+.paragraphAboutEduhub{
+    font-size: 1.2rem;
+    /* display: flex; */
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+.buttonAboutEduhub{
+    margin-bottom: 2rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: 10px;
+}
+
+
+/*      IMGAE        */
+.eduhub-img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.aboutImage1{
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    bottom: 9rem;
+    right: 6rem;
+}
+.aboutImage2{
+    width: 20rem;
+    height: auto;
+    position: absolute;
+    top: 6rem;
+    right: 2rem;
+    
+}
+
+
+/* =============================================================================== */
+/*      ABOUT SECTION CAT        */
+#aboutSectionCat{
+    background-color: #ededed;
+    width: 100%;
+    /* height: 100vh; */
+    padding-left: 4rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+/*      COLOR ADJUSTMENTS        */
+.CatTextColorAdjustment{
+    color: #0148A3;
+    text-align: left;
+}
+
+/*      IMAGE        */
+.catAboutImage{
+    position: absolute;
+    top: 6rem;
+    right: 5rem;
+}
+
+/*      BUTTON VISIT CAT WEBSITE         */
+.catVisitWebsiteButton{
+    width: 14rem;
+    height: 4rem;
+    background-image:linear-gradient(to right, #B06AE9 , #FF5E6D, #FFA54C) ;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+/* ====================================================================================== */
+/*      SPONSERS         */
+
+
+#sponsers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* height: 50vh; */
+    background-color: black;
+    padding: 2rem 2rem 5rem 0;
+
+}
+
+/*      SPONSER TEXT         */
+.bigLetterSponser{
+    font-size: 5rem;
+    color: white;
+}
+
+/*      SPONSER LOGO         */
+.sponcerCatLogo{
+    margin-top: 6rem;
+    width: 20rem;
+}
+
+
+
+/* ====================================================================================== */
+/*      QNA SECTION       */
+
+#qnaSection{
+    width: 100%;
+    /* height: 80vh; */
+    background-color: #201E23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*      TEXT HEADING         */
+.qnaSectionLargeHeading{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+/*      THE QUESTION AND ANSWER DIVS         */
+#wrapperQna{
+    width: 100%;
+    /* height: 100%; */
+    padding: 2% 0 2% 0;
+    /* margin-top: 4rem; */
+    background-color: #201E23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.Question{
+    margin: 1%;
+    background-color: #3f3c37;
+    border-radius: 15px;
+}
+
+.faq-question{
+    font-size: larger;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    margin: 10px 0 10px 0;
+    padding: 20px 0 20px 20px;
+    width: 60rem;
+    height: 0rem;
+    background-color: #3f3c37;
+ }
+
+ .faq-answer{
+    color: #ffffff;
+    width: 60rem;
+    line-height: 150%;
+    padding: 0 3rem 3rem 3rem;
+    border-radius: 15px;
+    display: none;
+    background-color: #3f3c37;
+ }
+/* ====================================================================================== */
+/*      LETS CONNECT SECTION         */
+#letsConnect{
+    background-color: #363434;
+    width: 100%;
+    margin: 2rem;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.connect-heading {
+    color: #4092F2;
+    margin: 1rem;
+}
+
+.icons {
+   
+}
+.icon-items{
+    margin: 0 5px 0 5px;
+}
+
