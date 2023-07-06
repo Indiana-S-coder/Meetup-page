@@ -346,7 +346,8 @@
 /* ===================================================================================== */
 /*      ABOUT SECTION        */
 #aboutSectionEduhub{
-    width: 100%;
+    max-width: 120rem;
+    min-width: 120rem;
     height: 100vh;
     background-color: var(--background);
     padding-left: 10rem;
