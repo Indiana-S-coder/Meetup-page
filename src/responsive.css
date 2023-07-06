@@ -76,7 +76,6 @@
        max-width: 120rem;
        min-width: 80rem;
        height: auto;
-       position: fixed;
        
     }
 
@@ -97,77 +96,79 @@
     /* ===================================================================== */
     /*      UPCOMMING EVENTS         */
     #upcommingEvents {
-        width: 100%;
-        height: 100vh;
-        margin-top: 6rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        padding-top: 4rem;
-        z-index: +2;
-        background-color: var(--background);
+        overflow: hidden;
+        background-color: rgba(32, 209, 32,0.2);
+        max-width: 100%;
+        min-width: 100%;
+        height: auto;
+        padding: 1rem 1rem;
+        margin-top: 0rem;
+        
     }
 
     /*      TEXT SECTION         */
     .smallTextLocation {
-        font-size: 1.5rem;
+        margin-top: 4rem;
+        font-size: 1rem;
         color: #3B92F8;
     }
 
     .largeTextLocation {
-        font-size: 3.5rem;
+        margin-top: 0.1rem;
+        font-size: 3rem;
         color: #3B92F8;
     }
 
 
-
-
     /*      LOCATION CARDS SECTION       */
     #locationContainer {
-        justify-content: space-around;
-        width: 100%;
-        height: 80%;
-        /* background-color: beige; */
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content: center; */
+        justify-content:none;
+        width: 80%;
+        height: 100%;
+
     }
 
     /*      LOCATION WRAPPER         */
     #locationImageWrapper {
         width: 100%;
+        height: auto;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
 
     .locationElement1 {
         background-image: url(../assets/img/locationDelhi.png);
-        width: 300px;
-        height: 410px;
+        width: 18.75rem;
+        height: 25.625rem;
         background-repeat: no-repeat;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        margin-left: 10rem;
+        margin-right: 5.5rem;
+        margin-bottom: 2rem;
     }
 
     .locationElement2 {
-        background-image: url(../assets/img/locationBangalore.png);
-        width: 300px;
-        height: 410px;
+        background-image: url(../assets/img/locationKolkata.png);
+        width: 18.75rem;
+        height: 25.625rem;
         background-repeat: no-repeat;
-        margin-left: 5rem;
-        margin-right: 5rem;
-
+        margin-left: 10rem;
+        margin-right: 5.5rem;
+        margin-bottom: 2rem;
     }
 
     .locationElement3 {
-        background-image: url(../assets/img/locationKolkata.png);
-        width: 300px;
-        height: 410px;
+        background-image: url(../assets/img/locationBangalore.png);
+        width: 18.75rem;
+        height: 25.625rem;
         background-repeat: no-repeat;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        margin-left: 10rem;
+        margin-right: 5.5rem;
+        margin-bottom: 2rem;
 
     }
 
@@ -212,11 +213,15 @@
     /*      BUTTONS FOR MOVING LOCATIONS      */
 
     #locationChange {
-        width: 10%;
+        width: 50%;
         height: 4rem;
         /* background-color: beige; */
         display: flex;
         justify-content: space-around;
+        position: relative;
+        bottom: 8rem;
+        margin: 2rem;
+        left: 2rem;
     }
 
     #leftDirection {
